@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700;900&display=swap');
+
+
 /* ---------------------
 ** Global CSS
 ---------------------- */
@@ -5,8 +9,121 @@
     padding: 0;
     margin: 0;
 }
+body{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+h4{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.btn{
+    background-color: #A4BC46;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: #889c36;
+    color: #fff;
+}
+.secondLine{
+    display: grid;
+}
+.content{
+    padding: 0px 10px;
+    overflow: hidden;
+}
+.spacial{
+    color: #FABE4C;
+}
 
+/* Products */
+.products{
+    margin-bottom: 60px;
+}
+.section-title{
+    padding: 30px 0px;
+}
+.product{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s ease;
+}
+.product:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 14%);
+}
+.productImg{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.formaShoes .product .productImg{
+    background-color: transparent;
+}
+.products .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    margin-top: 20px;
+}
+.products .action h2{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FA804C;
+}
 
 /* ---------------------
-** Hero CSS
+** Header CSS
 ---------------------- */
+header{
+    background-color: #FFFBF0;
+    padding-bottom: 80px;
+}
+.headerBlur{
+    padding: 16px 0px;
+    transition: color 350ms ease,background-color 350ms ease;
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
+.navbar-brand img{
+    width: 300px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+
+/* ---------------------
+** Hero
+---------------------- */
+.hero{
+    padding-top: 120px;
+    overflow: hidden;
+}
+.heroContent{
+    margin-left: 100px;
+    width: 70%;
+}

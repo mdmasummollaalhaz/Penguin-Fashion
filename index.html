@@ -14,9 +14,64 @@
 </head>
 <body>
     
-    <!-- Header code start from here -->
-        <header></header>
-    <!-- END of Header -->
+    <!-- --------------------------------
+    ** Header code start from here
+    --------------------------------- -->
+    <header>
+        <!-- Nav bar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light headerBlur">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="assets/img/images/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#signIN" >Account</button>
+                    </a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero -->
+        <div class="container hero">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="heroContent">
+                        <h1 class="text-uppercase secondLine">
+                            <span class="spacial">Be the Penguins</span>
+                            <span>of Winter</span>
+                        </h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing 
+                            and typesetting industry.</p>
+                        <button class="btn"><i class="fas fa-shopping-cart"></i> Buy now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img class="img-fluid" src="assets/img/images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- --------------------------------
+    ** End Of Header
+    --------------------------------- -->
 
     <main>
         <!-- Slider code start from here -->
@@ -35,6 +90,45 @@
     <!-- Footer code start from here -->
         <footer></footer>
     <!-- END of Footer -->
+
+
+    <!-- SignIn and SignUP modal -->
+    <div class="modal fade" id="signIN" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Sign In</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I'm accept this website Terms & Conditions...</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <div>
+                        <button type="submit" class="btn btn-primary">Sing Up</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Sing In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Boostrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"> </script>
