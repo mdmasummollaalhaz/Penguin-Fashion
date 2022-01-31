@@ -74,6 +74,7 @@ p{
 .productImg{
     background-color: #F1F1F1;
     border-radius: 20px;
+    padding: 25px 40px;
 }
 .formaShoes .product .productImg{
     background-color: transparent;
@@ -92,7 +93,7 @@ p{
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
-    color: #FA804C;
+    color: #FABE4C;
 }
 
 /* ---------------------
