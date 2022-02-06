@@ -32,6 +32,9 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+a{
+    text-decoration: none;
+}
 .btn{
     background-color: #A4BC46;
     color: #fff;
